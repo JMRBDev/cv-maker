@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+    #non-printable {
+        display: none;
+    }
+
+    #printable {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: initial;
+        box-shadow: initial;
+        border: initial;
+    }
+
+    img {
+        height: 100% !important;
+    }
+}

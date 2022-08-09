@@ -1,0 +1,18 @@
+---
+const {title} = Astro.props;
+---
+
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="/style.scss">
+		<title>{title}</title>
+	</head>
+
+	<body class="overflow-hidden">
+		<div class="flex xl:flex-row flex-col justify-evenly bg-slate-200">
+			<slot />
+		</div>
+    </body>
+</html>
