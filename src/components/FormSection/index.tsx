@@ -73,19 +73,19 @@ const FormSection = ({
                         </div>
                     ))}
 
-                    {isComplex && (
-                        <button
-                            class="w-full mt-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:focus:ring-yellow-900"
-                            onClick={() => addArrayItem(listName, {
-                                name: `${title} ${listValues.length + 1}`,
-                                description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam aut illum laborum unde fuga. Minus cupiditate earum eum odit.',
-                                date: { from: '2001', to: '2005' },
-                                place: `Lugar ${listValues.length + 1}`
-                            })}
-                        >
-                            Añadir
-                        </button>
-                    )}
+                    {/* {isComplex && ( */}
+                    <button
+                        class="w-full mt-2 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:focus:ring-yellow-900"
+                        onClick={() => addArrayItem(listName, {
+                            name: `${title} ${listValues.length + 1}`,
+                            description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam aut illum laborum unde fuga. Minus cupiditate earum eum odit.',
+                            date: { from: '2001', to: '2005' },
+                            place: `Lugar ${listValues.length + 1}`
+                        })}
+                    >
+                        Añadir
+                    </button>
+                    {/* )} */}
                 </div>
             ) : (
                 <>
