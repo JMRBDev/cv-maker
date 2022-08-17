@@ -1,4 +1,4 @@
-<h1 align="center">URL Shortener ✂️</h1>
+<h1 align="center">CV Maker 🤵🏻‍♂️🤵🏻‍♀️</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -14,9 +14,9 @@
 
 > Simple CV Maker
 
-### 🏠 [Homepage](https://github.com/JMRBDev/url-shortener)
+### 🏠 [Homepage](https://github.com/JMRBDev/cv-maker)
 
-### ✨ [Demo](https://short.jmrb.dev/)
+### ✨ [Demo](https://cvmaker.jmrb.dev/)
 
 ## Install
 
